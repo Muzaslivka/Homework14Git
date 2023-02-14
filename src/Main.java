@@ -3,9 +3,11 @@ public class Main {
     public static void main(String[] args) {
 
         SalesManager salesManager = new SalesManager();
-        int maxSale = salesManager.max();
-        int minSale = salesManager.min();
-        int average = salesManager.average();
+
+        long maxSale = salesManager.max();
+        long minSale = salesManager.min();
+        long average = salesManager.average();
+
         System.out.println(maxSale);
         System.out.println(minSale);
         System.out.println(average);
